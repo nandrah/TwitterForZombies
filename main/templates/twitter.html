@@ -1,0 +1,9 @@
+<table>
+{% for  tweet in tweets %}
+<tr>
+<td><a href="">{{ tweet.zombie.name }}</a></td>
+<td><a href="">{{ tweet.created_at }}</a></td></tr>
+<tr><td>{{ tweet.status }}</td>
+</tr>
+{% endfor %}
+</table>
